@@ -1,6 +1,7 @@
+"use client"
 import Link from "next/link";
 
-export default function Button(hR, cN, iP){
+export default function Button({hR, cN, iP}){
     function button(){
         document.querySelector('header').classList.remove('active');
     }

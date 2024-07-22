@@ -1,3 +1,4 @@
+"use client"
 export default function MobileMenuButton(){
 
     const mobileMenuButton=()=>document.querySelector('header').classList.toggle('active');
