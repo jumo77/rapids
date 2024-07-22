@@ -1,0 +1,14 @@
+[
+  {
+    "id" : "frontend",
+    "title" : "웹 페이지"
+  },
+  {
+    "id" : "backend",
+    "title" : "서버"
+  },
+  {
+    "id" : "mobile",
+    "title" : "모바일 앱"
+  }
+]
