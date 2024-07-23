@@ -1,15 +1,11 @@
-async function Info() {
+import "./footer.css"
 
-    // const response = await fetch("", {
-    //     cache: "force-cache",
-    // });
-    // const data = await response.json();
+async function Info() {
 
     return(
         <footer>
 
         </footer>
     )
-
 }
 export default Info
