@@ -24,7 +24,12 @@ async function NavBar() {
 
                     <ul className="nav-list nav-list-larger">
                         <Button hR="" cN="nav-link-home"/>
-                        {nav.products?.map((item)=><Button key={item.id} hR={item.id.toString()} iP={item.title}/>)}
+                        {/**/}
+                        <Button hR="1" iP="웹 페이지"/>
+                        <Button hR="2" iP="서버"/>
+                        <Button hR="3" iP="모바일 앱"/>
+                        {/**/}
+                        {/*{nav.products?.map((item)=><Button key={item.id} hR={item.id.toString()} iP={item.title}/>)}*/}
                         <Button hR="profile" cN="nav-link-profile"/>
                     </ul>
                 </nav>
